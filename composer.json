@@ -1,0 +1,43 @@
+{
+  "name": "gulios/sxf-web",
+  "type": "library",
+  "description": "SXF Web Component",
+  "minimum-stability": "stable",
+  "keywords": [],
+  "homepage": "https://www.gulios.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur Gulios Milkowski",
+      "email": "gulios@gulios.pl",
+      "homepage": "https://www.gulios.com",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "gulios/sxf-xml": "dev-master",
+    "gulios/sxf-config": "dev-master",
+    "gulios/sxf-geoip": "dev-master",
+    "gulios/sxf-helper": "dev-master",
+
+    "maximebf/debugbar": "1.15.*",
+
+    "symfony/http-kernel": "4.0.*",
+    "symfony/http-foundation": "4.0.*",
+    "symfony/routing": "4.0.0.*",
+
+    "sentry/sentry": "1.8.*"
+
+  },
+  "require-dev": {
+    "fzaninotto/faker": "1.7.*",
+    "phpunit/phpunit": "7.0.*",
+    "filp/whoops": "2.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SXF\\Web\\": "src/"
+    }
+  }
+}
